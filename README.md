@@ -11,7 +11,7 @@ To start, make sure you have VirtualBox and Vagrant installed on your Windows, M
 ## First Step (Clone The Repo)
 
 ```shell
-git clone https://github.com/devozg/devVagrant
+git clone https://github.com/devozg/devVagrant.git
 ```
 
 Once you have the source code (and you have unzipped it if you're using a release), change directory into vagrant-apache-flask-minimal, and make sure the associated Vagrant box (bentu/ubuntu-18.04) is added:
