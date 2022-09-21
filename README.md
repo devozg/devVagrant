@@ -38,20 +38,20 @@ to see the minimal app running.
 
 ## Terminating the service and virtual machine
 
-### If you need to stop the service, you can type:
+#### If you need to stop the service, you can type:
 
 ```shell
 vagrant halt
 ```
 
-### in the **devozg/devVagrant** directory in the console or terminal on your host machine. The next time you issue the "vagrant up" command, the VM will restart in its previous state. 
+In the **devozg/devVagrant** directory in the console or terminal on your host machine. The next time you issue the "vagrant up" command, the VM will restart in its previous state. 
 
-### If you need to delete the VM entirely, you can the the following command after halting the VM:
+#### If you need to delete the VM entirely, you can the the following command after halting the VM:
 
 ```shell
 vagrant destroy
 ```
-If you have made changes on local file (exmp. minimal/minimal.py) to refresh the vm run:
+#### If you have made changes on local file (exmp. minimal/minimal.py) to refresh the vm run:
 
 ```shell
 vagrant reload --provision # (Force the provisioners to run)
